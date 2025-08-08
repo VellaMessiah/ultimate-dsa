@@ -46,7 +46,7 @@ Decide whether to code them again based on your confidence and remaining time.
 | Task Scheduler | [Task Scheduler](https://leetcode.com/problems/task-scheduler/) | Model as filling slots determined by most frequent task; use math or heap to compute idle slots. |
 | Maximum Length of Pair Chain | [Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain/) | Sort by end and greedily pick non-overlapping pairs (earliest finish first). |
 | Split Array into Consecutive Subsequences | [Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/) | |
-| Maximum Swap | [Maximum Swap](https://leetcode.com/problems/maximum-swap/) |  |
+| Maximum Swap | [Maximum Swap](https://leetcode.com/problems/maximum-swap/) | Swap the leftmost number with the maximum number on the right. |
 | Monotone Increasing Digits | [Monotone Increasing Digits](https://leetcode.com/problems/monotone-increasing-digits/) |  |
 | Partition Labels | [Partition Labels](https://leetcode.com/problems/partition-labels/) | |
 | Reorganize String | [Reorganize String](https://leetcode.com/problems/reorganize-string/) |  |
