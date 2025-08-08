@@ -7,6 +7,8 @@ Direct practice links are included so you can sharpen your skills where it matte
 
 ---
 
+
+
 ## 🗺 High-Level Preparation Roadmap
 Topics are grouped into **independent blocks**, but the blocks themselves should be tackled **in order** for maximum efficiency:
 
@@ -17,6 +19,8 @@ Topics are grouped into **independent blocks**, but the blocks themselves should
 **Block 5** — Greedy, Dynamic Programming  
 
 ---
+
+
 
 ## ✅ Block-Wise Checklist (with Gist!)
 A block-by-block list of problems with:
