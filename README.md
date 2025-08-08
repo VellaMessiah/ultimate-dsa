@@ -9,7 +9,7 @@ Direct practice links are included so you can sharpen your skills where it matte
 
 
 
-## 🗺 High-Level Preparation Roadmap
+### 🗺 High-Level Preparation Roadmap
 Topics are grouped into **independent blocks**, but the blocks themselves should be tackled **in order** for maximum efficiency:
 
 **Block 1** — Math, Arrays, Linked Lists, Stacks, Queues  
@@ -22,14 +22,14 @@ Topics are grouped into **independent blocks**, but the blocks themselves should
 
 
 
-## ✅ Block-Wise Checklist (with Gist!)
+### ✅ Block-Wise Checklist (with Gist!)
 A block-by-block list of problems with:
 - **Links** to solve them directly.
 - **Gist summaries** for lightning-fast revision — perfect for that final 1–2 day sprint before an interview.  
 Decide whether to code them again based on your confidence and remaining time.
 
-### Block 5 Greedy, Dynamic Programming
-#### Greedy
+#### Block 5 Greedy, Dynamic Programming
+**Greedy**
 
 | Problem Name | Link | Gist |
 |---|---:|---|
