@@ -16,7 +16,8 @@ Topics are grouped into **independent blocks**, but the blocks themselves should
 **Block 2** — Searching, Sorting, Hashing  
 **Block 3** — Strings  
 **Block 4** — Trees, Graphs  
-**Block 5** — Greedy, Dynamic Programming  
+**Block 5** — Greedy, Dynamic Programming, Design  
+
 
 ---
 
