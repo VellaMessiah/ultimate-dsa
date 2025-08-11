@@ -38,10 +38,26 @@ Decide whether to code them again based on your confidence and remaining time.
  - Linked List cyclicity is the other most important concept - hence I will clearly explain the algorithm and why it works? Learn the why part carefully - good companies with smart people and a good culture will ask this instead of asking fancy super-hard rated problems
  - The whole purpose of Linked lists is dynamic allocation to save memory so always practice every question in an O(1) space way - even if it means sacrificing Performance ( within reason)
 
-_Reversing a Linked Lists_
+_Reversing a Linked List_
 Assume first node is the dummy head. We are trying to do this visually:
 <img width="2198" height="1256" alt="image" src="https://github.com/user-attachments/assets/1c52ac58-6485-4286-a24e-bd8f3537aa95" />
 The algorithm roughly looks like:
+
+After you understand why this works - for speed, you can memorize this algorithm
+
+```
+        ListNode* itr = dummyHead->next;
+        ListNode* temp = NULL;
+        while(itr && itr->next){
+            temp = itr->next;
+            itr->next = temp->next;
+            temp->next = dummyHead->next;
+            dummyHead->next = temp;
+        }
+
+        return dummyHead->next;
+```
+We can reverse the same algorithm to reverse a sublist! just perform the step in the loop n = size of sublist times!
 
 _Linked List Cyclicity: Algorith and why it works_
 The algo maintains two pointers. One moves twice the speed of other - if there is a cycle in the linked list, both will eventually enter the cycle and in the cycle, the faster pointer will catch up to it. If it does, we know for sure that there is a cycle. This is purely logical.
