@@ -38,7 +38,7 @@ Decide whether to code them again based on your confidence and remaining time.
  - Linked List cyclicity is the other most important concept - hence I will clearly explain the algorithm and why it works? Learn the why part carefully - good companies with smart people and a good culture will ask this instead of asking fancy super-hard rated problems
  - The whole purpose of Linked lists is dynamic allocation to save memory so always practice every question in an O(1) space way - even if it means sacrificing Performance ( within reason)
 
-_Reversing a Linked List_
+_Reversing a Linked List: TITH Algorithm_
 Assume first node is the dummy head. We are trying to do this visually:
 <img width="2198" height="1256" alt="image" src="https://github.com/user-attachments/assets/1c52ac58-6485-4286-a24e-bd8f3537aa95" />
 The algorithm roughly looks like:
@@ -49,10 +49,10 @@ After you understand why this works - for speed, you can memorize this algorithm
         ListNode* itr = dummyHead->next;
         ListNode* temp = NULL;
         while(itr && itr->next){
-            temp = itr->next;
-            itr->next = temp->next;
-            temp->next = dummyHead->next;
-            dummyHead->next = temp;
+            temp = itr->next; // T
+            itr->next = temp->next; // I
+            temp->next = dummyHead->next; // T
+            dummyHead->next = temp; // H
         }
 
         return dummyHead->next;
