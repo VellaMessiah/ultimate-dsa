@@ -74,7 +74,7 @@ They can only meet at the start of the cycle if for some number n X = n(C) + Z. 
 |---|---:|---|
 | Reverse a Linked List | [Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/description/) | Algo shared above |
 | Reverse a Linked List II | [Reverse a Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/description/) | Gist shared above - use dummy head to get to the start element and then perform the iteration right-left times|
-| K reverse Linked List | [K Reverse Linked List](https://www.scaler.com/academy/mentee-dashboard/class/18036/assignment/problems/380?navref=cl_tt_lst_nm) | Use dummy head and perform k reversals at a time | 
+| K reverse Linked List | [K Reverse Linked List](https://leetcode.com/problems/reverse-nodes-in-k-group/description/) | Use dummy head and perform k reversals at a time | 
 | Remove Nth node from end of List| [Remove Nth from End](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) | Use a pointer with a N headstart and another pointer  |
 | Linked List Cycle | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/) | Algo discussed above |
 | Start of Cycle Linked List | [Remove Cycle](https://leetcode.com/problems/linked-list-cycle-ii/description/) | Algo discussed above |
