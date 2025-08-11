@@ -75,6 +75,9 @@ They can only meet at the start of the cycle if for some number n X = n(C) + Z. 
 
 #### Block 5 Greedy, Dynamic Programming
 **Greedy**
+- Remember when given a sequence of numbers or intervals that sorting a certain way could lead to an optimal answer
+- If sorting is not an option and we are given a sequence, perhaps we can use a stack or a queue to remove unoptimal elements?
+- If you cannot solve the Greedy question outright, try with DP first! Most of the times this works. Then try to optimize the DP question to Greedy
 
 | Problem Name | Link | Gist |
 |---|---:|---|
