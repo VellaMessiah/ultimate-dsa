@@ -70,6 +70,7 @@ They can only meet at the start of the cycle if for some number n X = n(C) + Z. 
 | Flatten a 2d List | [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/description/) | Can we leveragethe concept of merge sort or recursion here? | 
 | Merge k sorted lists | [Merge K sorted lists](https://leetcode.com/problems/merge-k-sorted-lists/description/) | We should do both a compute optimized and a space optimized way | 
 
+#
 
 #### Block 5 Greedy, Dynamic Programming
 **Greedy**
