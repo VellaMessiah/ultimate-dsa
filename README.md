@@ -67,6 +67,31 @@ The algo maintains two pointers. One moves twice the speed of other - if there i
 Finding the start of the cycle is where the algorithm gets tricky. It states that wherever the fast and slow pointers met, set a pointer there and another at the start of the list. Start moving them step by step. Where they meet is the start of the cycle.
 Why does this work?
 Assume that length from start of the list to the start of the cycle is X. From the start of the cycle to meeting point is Y and from meeting point to the start ( in forward direction) is Z. Length of cycle C  = Y + Z.
+We need to prove that set the pointer at start and another at the collision point, the latter will loop around the circle a few times and then collide with the start of the loop.
+
+or X = aC + Z
+
+
+the slow pointer will never complete a full loop before the fast pointer catches it. The collision is guaranteed to happen during the slow pointer's first traversal of the loop.
+Because every step, the the fast closes 1 space between them and worst case the space is C-1 ( when fast is just one step ahead when slow enters the loop). Fast will close this gap in C-1 seconds and in the same time slow will be 1 step behind completing the loop. Hence if slow cannot complete a circle in worst case, it cannot complete circle in any other case.
+
+So, Distance covered by slow 
+Dslow = X + Y
+
+Fast loops around the circle a zero or more times before travelling Y more steps to meet fast
+Dfast = X + nC + Y
+
+Since fast moves 2x the speed of slow, 
+2 X Dslow = Dfast
+2X + 2Y = X + nC + Y
+X + Y = nC
+X = nC - Y
+X = (n-1)C + (C-Y)
+X = (n-1)C + Z
+X = kC + Z
+
+
+Distance travelled by fast pointer
 
 They can only meet at the start of the cycle if for some number n X = n(C) + Z. If we can prove this equation, then we have proof that the algorithm works. 
 
