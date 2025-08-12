@@ -76,12 +76,17 @@ the slow pointer will never complete a full loop before the fast pointer catches
 Because every step, the the fast closes 1 space between them and worst case the space is C-1 ( when fast is just one step ahead when slow enters the loop). Fast will close this gap in C-1 seconds and in the same time slow will be 1 step behind completing the loop. Hence if slow cannot complete a circle in worst case, it cannot complete circle in any other case.
 
 So, Distance covered by slow 
+```
 Dslow = X + Y
+```
 
 Fast loops around the circle a zero or more times before travelling Y more steps to meet fast
+```
 Dfast = X + nC + Y
+```
 
 Since fast moves 2x the speed of slow, 
+```
 2 X Dslow = Dfast
 2X + 2Y = X + nC + Y
 X + Y = nC
@@ -89,7 +94,7 @@ X = nC - Y
 X = (n-1)C + (C-Y)
 X = (n-1)C + Z
 X = kC + Z
-
+```
 
 Distance travelled by fast pointer
 
