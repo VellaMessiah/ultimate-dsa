@@ -109,8 +109,8 @@ They can only meet at the start of the cycle if for some number n X = n(C) + Z. 
 | Linked List Cycle | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/) | Algo discussed above |
 | Start of Cycle Linked List | [Remove Cycle](https://leetcode.com/problems/linked-list-cycle-ii/description/) | Algo discussed above |
 | Middle of Linked List | [Middle](https://leetcode.com/problems/middle-of-the-linked-list/description/) | Can we use fast and slow pointers here?|
-| Reorder Linked List | [Reorder List ](https://leetcode.com/problems/reorder-list/description/) | Find the element just before midpoint, reverse list from here and disconnect two halves and then interleave the lists |
 | Check if Linked List is a Palindrom | [Palindrome List](https://leetcode.com/problems/palindrome-linked-list/description/) | use concepts from Midpoint and reverse here | 
+| Reorder Linked List | [Reorder List ](https://leetcode.com/problems/reorder-list/description/) | Find the element just before midpoint, reverse list from here and disconnect two halves and then interleave the lists |
 | Sort a Linked List | [Sort List](https://leetcode.com/problems/sort-list/description/) | Combine concepts of midpoint and merge 2 sorted lists to perform this -> remember when you call merge sort on left and right to reassign the headers h1 = mergeSort(h1), h2 = mergeSort(h2) return mergeTwoSortedLists(h1,h2)|
 | Copy List with Random Pointer | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/description/) | Culmination of all rearrangement questions - uses all the concepts|
 | LRU Cache | [LRU Cache](https://leetcode.com/problems/lru-cache/description/) | You should probably do hash maps. if you haven't - do that first and then come back to this question | 
