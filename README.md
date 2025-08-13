@@ -15,8 +15,9 @@ Topics are grouped into **independent blocks**, but the blocks themselves should
 **Block 1** — Math, Arrays, Linked Lists, Stacks, Queues  
 **Block 2** — Searching, Sorting, Hashing  
 **Block 3** — Strings  
-**Block 4** — Trees, Graphs  
-**Block 5** — Greedy, Dynamic Programming, Design  
+**Block 4** — Trees, Graphs
+**Block 5** — Design ( Combines all the above - especially important for Google)
+**Block 6** — Greedy, Dynamic Programming, Design  
 
 
 ---
@@ -119,7 +120,7 @@ They can only meet at the start of the cycle if for some number n X = n(C) + Z. 
 
 #
 
-#### Block 5 Greedy, Dynamic Programming
+#### Block 6 Greedy, Dynamic Programming
 **Greedy**
 - Remember when given a sequence of numbers or intervals that sorting a certain way could lead to an optimal answer
 - If sorting is not an option and we are given a sequence, perhaps we can use a stack or a queue to remove unoptimal elements?
