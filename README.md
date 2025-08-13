@@ -118,10 +118,12 @@ They can only meet at the start of the cycle if for some number n X = n(C) + Z. 
 | Merge k sorted lists | [Merge K sorted lists](https://leetcode.com/problems/merge-k-sorted-lists/description/) | We should do both a compute optimized and a space optimized way | 
 
 #
+
 #### Block 5 - Design
 | Problem Name | Link | Gist |
 |---|---:|---|
 | LRU Cache | [LRU Cache](https://leetcode.com/problems/lru-cache/description/) | You should probably do hash maps. if you haven't - do that first and then come back to this question | 
+
 #
 
 #### Block 6 Greedy, Dynamic Programming
