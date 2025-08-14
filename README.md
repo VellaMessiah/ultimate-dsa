@@ -117,12 +117,21 @@ They can only meet at the start of the cycle if for some number n X = n(C) + Z. 
 | Flatten a 2d List | [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/description/) | Can we leveragethe concept of merge sort or recursion here? | 
 | Merge k sorted lists | [Merge K sorted lists](https://leetcode.com/problems/merge-k-sorted-lists/description/) | We should do both a compute optimized and a space optimized way | 
 
+**Queues**
+| Problem Name | Link | Gist |
+|---|---:|---|
+| Reverse first k elements in a queue | [Reverse K](https://www.geeksforgeeks.org/problems/reverse-first-k-elements-of-queue/1) | 
+| Sliding Window Maximum | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | Do not pay attention to the difficulty. This is a medium problem at worse - just a very common pattern in queues - BE CAREFUL WHILE POPPING FROM QUEUE COMPARING WITH CURRENT - DO NOT USE <= as this creates complications on repeat elements - we want to main both copies of repeats in the queue - think example - [7,5,7,1,6,0], k = 3|
+|Sum of min and max of subarrays of size k| [Sum of Min Max](https://www.geeksforgeeks.org/dsa/sum-minimum-maximum-elements-subarrays-size-k/) | Just need two queues maintaining sliding max and min respectively |
+
+
 #
 
 #### Block 5 - Design
 | Problem Name | Link | Gist |
 |---|---:|---|
-| LRU Cache | [LRU Cache](https://leetcode.com/problems/lru-cache/description/) | You should probably do hash maps. if you haven't - do that first and then come back to this question | 
+| LRU Cache | [LRU Cache](https://leetcode.com/problems/lru-cache/description/) | You should probably do hash maps. if you haven't - do that first and then come back to this question |
+| Max Frequency Stack| [Max Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/description/)| |
 
 #
 
