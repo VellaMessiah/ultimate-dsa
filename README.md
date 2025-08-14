@@ -126,6 +126,7 @@ They can only meet at the start of the cycle if for some number n X = n(C) + Z. 
 
 **Stacks**
 - These are used when we want to analyze a linear sequence but lookback closed characters first
+  
 | Problem Name | Link | Gist |
 |---|---:|---|
 |Remove All adjacent duplicates | [Remove all adjacent duplicates](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/) | Check if stack top is duplicate with current, if yes keep popping. Push to stack if you did not perform any pop |
