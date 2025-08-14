@@ -16,7 +16,7 @@ Topics are grouped into **independent blocks**, but the blocks themselves should
 **Block 2** — Searching, Sorting, Hashing  
 **Block 3** — Strings  
 **Block 4** — Trees, Graphs  
-**Block 5** — Design ( Combines all the above - especially important for Google)
+**Block 5** — Design ( Combines all the above - especially important for Google)  
 **Block 6** — Greedy, Dynamic Programming, Design  
 
 
