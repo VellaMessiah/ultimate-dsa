@@ -124,6 +124,14 @@ They can only meet at the start of the cycle if for some number n X = n(C) + Z. 
 | Sliding Window Maximum | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | Do not pay attention to the difficulty. This is a medium problem at worse - just a very common pattern in queues - BE CAREFUL WHILE POPPING FROM QUEUE COMPARING WITH CURRENT - DO NOT USE <= as this creates complications on repeat elements - we want to main both copies of repeats in the queue - think example - [7,5,7,1,6,0], k = 3|
 |Sum of min and max of subarrays of size k| [Sum of Min Max](https://www.geeksforgeeks.org/dsa/sum-minimum-maximum-elements-subarrays-size-k/) | Just need two queues maintaining sliding max and min respectively |
 
+**Stacks**
+- These are used when we want to analyze a linear sequence but lookback closed characters first
+| Problem Name | Link | Gist |
+|---|---:|---|
+|Remove All adjacent duplicates | [Remove all adjacent duplicates](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/) | Check if stack top is duplicate with current, if yes keep popping. Push to stack if you did not perform any pop |
+
+
+
 
 #
 
