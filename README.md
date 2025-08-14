@@ -132,6 +132,17 @@ They can only meet at the start of the cycle if for some number n X = n(C) + Z. 
 |---|---:|---|
 |Remove All adjacent duplicates | [Remove all adjacent duplicates](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/) | Check if stack top is duplicate with current, if yes keep popping. Push to stack if you did not perform any pop |
 | Simplify Directory Path | [Simplify Path](https://leetcode.com/problems/simplify-path/description/) | Be careful of the several edge cases here namely: We have to take care not to push empty string or "." or ".." unto stack, then when removing trailing '/' we have to make sure the string isn't simply "/" |
+| Sort a stack using another stack| [Sort stack](https://www.geeksforgeeks.org/dsa/sort-stack-using-temporary-stack/) | |
+| Min stack | [Min stack](https://leetcode.com/problems/min-stack/description/) | |
+| Redundant Brackets | [Redundant Brackets](https://www.interviewbit.com/problems/redundant-braces/) | |
+| Evaluate Post Fix Expression| [Evaluate Reverse Polish Expression](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/) | |
+| Infix to PostFix | [Infix to Postfix](https://www.geeksforgeeks.org/problems/infix-to-postfix-1587115620/1) | |
+| Basic Calculator II | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/description/) | |
+| Basic Calculator III | [Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/description/) | | 
+| Nearest Smaller Element| [Nearest Smaller Element](https://www.interviewbit.com/problems/nearest-smaller-element/) | |
+| Largest Rectangle in a Histogram | [Largest Rectangle](https://leetcode.com/problems/largest-rectangle-in-histogram/description/) | | 
+| MAX MIN | [Sum of differences of max and min of all subarrays](https://www.geeksforgeeks.org/dsa/sum-of-absolute-difference-of-maximum-and-minimum-of-all-subarrays/)| |
+| Max XOR | [Find maximum value of XOR of max and 2nd max amongst all subarrays ](https://www.scaler.com/academy/mentee-dashboard/class/20833/homework/problems/1157?navref=cl_tt_lst_nm) | |
 
 
 
