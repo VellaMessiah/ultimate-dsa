@@ -131,7 +131,7 @@ They can only meet at the start of the cycle if for some number n X = n(C) + Z. 
 | Problem Name | Link | Gist |
 |---|---:|---|
 |Remove All adjacent duplicates | [Remove all adjacent duplicates](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/) | Check if stack top is duplicate with current, if yes keep popping. Push to stack if you did not perform any pop |
-| Simplify Directory Path | [Simplify Path](https://leetcode.com/problems/simplify-path/description/) | Be careful of the several edge cases here namely: |
+| Simplify Directory Path | [Simplify Path](https://leetcode.com/problems/simplify-path/description/) | Be careful of the several edge cases here namely: We have to take care not to push empty string or "." or ".." unto stack, then when removing trailing '/' we have to make sure the string isn't simply "/" |
 
 
 
