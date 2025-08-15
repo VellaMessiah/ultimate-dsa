@@ -144,6 +144,22 @@ They can only meet at the start of the cycle if for some number n X = n(C) + Z. 
 | MAX MIN | [Sum of differences of max and min of all subarrays](https://www.geeksforgeeks.org/dsa/sum-of-absolute-difference-of-maximum-and-minimum-of-all-subarrays/)| |
 | Max XOR | [Find maximum value of XOR of max and 2nd max amongst all subarrays ](https://www.scaler.com/academy/mentee-dashboard/class/20833/homework/problems/1157?navref=cl_tt_lst_nm) | |
 
+#
+
+#### Block 2 - Strings, Hashing, Searching, Sorting
+
+**Hashing**
+- Most basic form of key-value memorization
+
+| Problem Name | Link | Gist |
+|---|---:|---|
+
+**String**
+- There is only one pattern of "string" problems and that is pattern-matching in linear time. Any other problem is an array problem.
+- For pattern matching, there are only two algorithms both are unintuitive and require memorization with the latter requiring knowledge on rolling hashes ( and being slightly more intuitive) - 1) Z-Algorithm 2) Rabin Karp Algorithm. Yes, I know there are other algorithms like KMP but I'm sorry if I'm learning an algorithm, it better be the shorter one like Z.
+
+| Problem Name | Link | Gist |
+|---|---:|---|
 
 
 
