@@ -157,15 +157,24 @@ They can only meet at the start of the cycle if for some number n X = n(C) + Z. 
 | Find the longest subarray with sum 0 | [Longest with sum 0 ](https://www.geeksforgeeks.org/problems/largest-subarray-with-0-sum/1)| Same principles as above but maybe only store the index instead of count this time? And that too the first occurence so we get the leftmost element with sum = prefix -k? Edge case: Account for a prefix subarray of sum zero ( perhaps hash firstOccurencr[0] as -1? |
 | Longest Consecutive Sequence | [Longest Consecutive Subsequence](https://leetcode.com/problems/longest-consecutive-sequence/description/) | append count of the series to terminal ends. Take special care of edge cases: what if an element is repeated? what if a middle element is repeated? |
 | Distinct Numbers in Window | [Distinct Numbers in Window](https://www.interviewbit.com/problems/distinct-numbers-in-window/) | |
+| Relative Sort Array | [Relative Sort Array](https://leetcode.com/problems/relative-sort-array/description/) | |
+| Count Rectangles | | |
+| Count Right Triangles | | |
+| Longest substring without repeat | | |
+| Max points on a line | [Max points on a line ](https://leetcode.com/problems/max-points-on-a-line/description/)| | 
+| Minimum Window substring | [Min Window](https://leetcode.com/problems/minimum-window-substring/description/) | |
+| Compare sorted subarrays | [Compare sorted subarrays](https://www.scaler.com/academy/mentee-dashboard/class/18030/homework/problems/522?navref=cl_tt_lst_nm)| The concept of rolling hashes !|
 
 
 **String**
 - There is only one pattern of "string" problems and that is pattern-matching in linear time. Any other problem is an array problem.
 - For pattern matching, there are only two algorithms both are unintuitive and require memorization with the latter requiring knowledge on rolling hashes ( and being slightly more intuitive) - 1) Z-Algorithm 2) Rabin Karp Algorithm. Yes, I know there are other algorithms like KMP but I'm sorry if I'm learning an algorithm, it better be the shorter one like Z.
+- The one advantage that rolling hashes offer is less space utilization
 
 | Problem Name | Link | Gist |
 |---|---:|---|
-
+| | | |
+| Shortest Palindrome | [Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/description/) | Use rolling hashes or pattern matching algorithms to do this. |
 
 
 #
