@@ -155,7 +155,7 @@ They can only meet at the start of the cycle if for some number n X = n(C) + Z. 
 |---|---:|---|
 | Subarray sum equals k| [Subarray sum equals k](https://leetcode.com/problems/subarray-sum-equals-k/) | We know given a array with prefix sums, sum of subarray between i..j = prefix[j] - prefix[i-1]. So if prefix[j] - prefix[i-1] ==k for some i,j where i<j then prefix[i-1] = prefix[j] -k. Therefore if we track prefix sum of array and find if prefix_sum -k can also be found previously as prefix sum in any point in the array then we can increment answer by the number of times we found that sum. Can you store prefix sums in hash table to make this easier? |
 | Find the longest subarray with sum 0 | [Longest with sum 0 ](https://www.geeksforgeeks.org/problems/largest-subarray-with-0-sum/1)| Same principles as above but maybe only store the index instead of count this time? And that too the first occurence so we get the leftmost element with sum = prefix -k? Edge case: Account for a prefix subarray of sum zero ( perhaps hash firstOccurencr[0] as -1? |
-| Longest Consecutive Sequence | [Longest Consecutive Subsequence](https://leetcode.com/problems/longest-consecutive-sequence/description/) | |
+| Longest Consecutive Sequence | [Longest Consecutive Subsequence](https://leetcode.com/problems/longest-consecutive-sequence/description/) | append count of the series to terminal ends. Take special care of edge cases: what if an element is repeated? what if a middle element is repeated? |
 | Distinct Numbers in Window | [Distinct Numbers in Window](https://www.interviewbit.com/problems/distinct-numbers-in-window/) | |
 
 
