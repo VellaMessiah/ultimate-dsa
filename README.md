@@ -158,9 +158,9 @@ They can only meet at the start of the cycle if for some number n X = n(C) + Z. 
 | Longest Consecutive Sequence | [Longest Consecutive Subsequence](https://leetcode.com/problems/longest-consecutive-sequence/description/) | append count of the series to terminal ends. Take special care of edge cases: what if an element is repeated? what if a middle element is repeated? |
 | Distinct Numbers in Window | [Distinct Numbers in Window](https://www.interviewbit.com/problems/distinct-numbers-in-window/) | |
 | Relative Sort Array | [Relative Sort Array](https://leetcode.com/problems/relative-sort-array/description/) | |
-| Count Rectangles | | |
-| Count Right Triangles | | |
-| Longest substring without repeat | | |
+| Count Right Triangles | [Count Right triangles](https://www.geeksforgeeks.org/dsa/count-of-right-angled-triangle-formed-from-given-n-points-whose-base-or-perpendicular-are-parallel-to-x-or-y-axis/) | |
+| Count Rectangles | [Count Rectangles Gfg](https://www.geeksforgeeks.org/dsa/count-of-pairs-from-arrays-a-and-b-such-that-element-in-a-is-greater-than-element-in-b-at-that-index/) | Use concepts from right triangle here |
+| Longest substring without repeat | [Longest substring without repeating characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | |
 | Max points on a line | [Max points on a line ](https://leetcode.com/problems/max-points-on-a-line/description/)| | 
 | Minimum Window substring | [Min Window](https://leetcode.com/problems/minimum-window-substring/description/) | |
 | Compare sorted subarrays | [Compare sorted subarrays](https://www.scaler.com/academy/mentee-dashboard/class/18030/homework/problems/522?navref=cl_tt_lst_nm)| The concept of rolling hashes !|
