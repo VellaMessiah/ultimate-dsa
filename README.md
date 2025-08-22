@@ -174,7 +174,7 @@ They can only meet at the start of the cycle if for some number n X = n(C) + Z. 
 | Problem Name | Link | Gist |
 |---|---:|---|
 | | | |
-| Shortest Palindrome | [Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/description/) | Use rolling hashes or pattern matching algorithms to do this. |
+| Shortest Palindrome | [Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/description/) | Use rolling hashes or pattern matching algorithms to do this. Main a running forward and reverse hash, keep updating limit whenever they are equal. Your answer is reverse(substr(lim,end)) + ans|
 
 
 #
