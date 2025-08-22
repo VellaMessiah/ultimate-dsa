@@ -170,10 +170,11 @@ They can only meet at the start of the cycle if for some number n X = n(C) + Z. 
 - There is only one pattern of "string" problems and that is pattern-matching in linear time. Any other problem is an array problem.
 - For pattern matching, there are only two algorithms both are unintuitive and require memorization with the latter requiring knowledge on rolling hashes ( and being slightly more intuitive) - 1) Z-Algorithm 2) Rabin Karp Algorithm. Yes, I know there are other algorithms like KMP but I'm sorry if I'm learning an algorithm, it better be the shorter one like Z.
 - The one advantage that rolling hashes offer is less space utilization
+- Yet another non-sensical algorithm called Manacher's algorithm exists. It is for a very very specific use case of finding palindromes in the middle of a string. No need to learn this. For most cases using Rabin Karp siffuces ( see Shortest Palindrom below)
 
 | Problem Name | Link | Gist |
 |---|---:|---|
-| | | |
+| String Pattern matching | [Find first occurence of string](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/) | Standard pattern matching algorithm - use any of Rabin Karp or Z Algorithm|
 | Shortest Palindrome | [Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/description/) | Use rolling hashes or pattern matching algorithms to do this. Main a running forward and reverse hash, keep updating limit whenever they are equal. Your answer is reverse(substr(lim,end)) + ans|
 
 
