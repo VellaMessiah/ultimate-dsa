@@ -212,16 +212,30 @@ H_p = (H_p\cdot p)\bmod MOD
 
 Finally, compare **\(H_r\)** and **\(H_p\)**.
 
-
-
-
-
-
 | Problem Name | Link | Gist |
 |---|---:|---|
 | String Pattern matching | [Find first occurence of string](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/) | Standard pattern matching algorithm - use any of Rabin Karp or Z Algorithm|
 | Shortest Palindrome | [Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/description/) | Use rolling hashes or pattern matching algorithms to do this. Main a running forward and reverse hash, keep updating limit whenever they are equal. Your answer is reverse(substr(lim,end)) + ans|
 
+**Sorting**
+- Sometimes order the elements is the clear way to go. Whenever you observe a Linear Sequence, one of the options when you think algorithmically is 'Can I do this efficiently if the linear sequence was sorted?'
+- Know the following algorithms really well: Merge Sort, Quick Sort, Quick Select ( For tutorials on the same - Refer Stanford DSA videos)
+- Merge Sort in particular due to it's divide and conquer nature offers other advanced applications like counting inversions in an Array! The intuition here is if I had the array in current order as well as sorted order and I could compare both, then would my solution become simpler?
+- Do not bother with in-place merge sort, it is slower.
+- Unless asked to implement sort, just use your in-built sorting algorithm and obviously know what it does underneath. For instance std::sort is introsort, a hybrid of quicksort, heapsort, and insertion sort. Should be ideally nLogn
+- Pivot Randomization is very important in Quicksort/Quickselect algorithms. Some test cases are designed to fail on selecting the first or last element all the time.
+- Know how to sort an array of custom objects or custom sorting logic over primitives in your language of choice
+
+| Problem Name | Link | Gist |
+|---|---:|---|
+|Kth Smallest Element | [Kth Largest Element](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | Simple Quicksort |
+|MaxMod | [MaxMod](https://www.geeksforgeeks.org/dsa/find-the-maximum-possible-value-of-ai-aj-over-all-pairs-of-i-and-j/) | Intuition |
+|Largest Number |[Largest Number](https://leetcode.com/problems/largest-number/description/) | Custom Sorting|
+|Inversion Count | [Count Inversions](https://leetcode.com/problems/count-the-number-of-inversions/description/) | Merge Sort with extra computation | 
+| K closest points to origin | [K closest](https://leetcode.com/problems/k-closest-points-to-origin/) | Custom sorting| 
+| Reverse Pairs | [Reverse Pairs](https://leetcode.com/problems/reverse-pairs/) |  Merge Sort with extra computation |
+| Sum of max or number of such sequences difference accross all subsequences | [Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/description/) | |
+| Maximum Unsorted Subarray | [Maximum Unsorted Subarray](https://www.scaler.com/academy/mentee-dashboard/class/18018/homework/problems/359?navref=cl_tt_lst_nm) | |
 
 #
 
