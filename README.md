@@ -172,6 +172,51 @@ They can only meet at the start of the cycle if for some number n X = n(C) + Z. 
 - The one advantage that rolling hashes offer is less space utilization
 - Yet another non-sensical algorithm called Manacher's algorithm exists. It is for a very very specific use case of finding palindromes in the middle of a string. No need to learn this. For most cases using Rabin Karp siffuces ( see Shortest Palindrom below)
 
+_Explanation of Rabin Karp Algorithm_
+
+Rabin–Karp uses **rolling hashes** for efficient substring search.
+- **Hash of substring** \([l,r]\):  
+  \[
+  H[l,r] = \sum_{i=l}^{r} s[i]\cdot p^i
+  \]  
+  where \(p\) is a prime base (e.g., 23).
+
+- _Properties_:  
+  \[
+  H[l,r] = H[l,r-1] + H[r,r], \quad H[l,r] = H[l-1,r]-H[l-1,l-1]
+  \]  
+
+- **Sliding the window** (shift by 1):  
+  \[
+  H_{new} = H_{prev}\cdot p
+  \]
+
+- **Modular arithmetic**: Use a large prime modulus (e.g., \(10^9+7\)) to prevent overflow.
+
+At iteration \(i\) (window ending at \(i\), pattern length \(M\)):
+
+\[
+H_r = (H_r - s[i-M]\cdot p^{i-M} + MOD)\bmod MOD
+\]  
+(remove char leaving window)
+
+\[
+H_r = (H_r + s[i]\cdot p^i)\bmod MOD
+\]  
+(add new char entering window)
+
+\[
+H_p = (H_p\cdot p)\bmod MOD
+\]  
+(update pattern hash)
+
+Finally, compare **\(H_r\)** and **\(H_p\)**.
+
+
+
+
+
+
 | Problem Name | Link | Gist |
 |---|---:|---|
 | String Pattern matching | [Find first occurence of string](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/) | Standard pattern matching algorithm - use any of Rabin Karp or Z Algorithm|
