@@ -317,3 +317,12 @@ priority_queue<vector<int>, vector<vector<int>>, Compare> maxQ;
 | Minimum Add to Make Parentheses Valid | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | Maintain counter for unmatched left, if this drops below zero, add to answer and reset to zero. Add this counter to the ans at the end |
 | Advantage Shuffle | [Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/) |  |
 | Minimum Increment to Make Array Unique | [Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/) | |
+
+
+#
+
+#### Block 7 Hard Problems
+
+| Problem Name | Link | Gist |
+|---|---:|---|
+| Median of 2 sorted arrays | [Median of two sorted arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/) | |
