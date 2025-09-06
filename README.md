@@ -244,6 +244,30 @@ int pivot = rand()%(y-x+1) + x
 
 #
 
+#### Block 3 - Heaps
+- To Declare a min Heap of integers
+```
+priority_queue<int, vector<int>, greater<int>> minQ
+```
+- To Declare a heap on a custom class, we need a Compare class with a public implementation of the operator() method. Note that the condition must be reverse of what you would provide while custom sorting.
+For instance the below piece of code can be used to declare a max heap of vector<int> where each vector is a point on x-y plane and we consider distance of the point from origin as the criteria for max heap
+```
+long dist(const vector<int> &v){
+    return v[0]*v[0] + v[1]*v[1];
+}
+
+class Compare {
+public:
+    bool operator()(vector<int>&v1, vector<int>&v2){
+        return dist(v1) < dist(v2);
+    }
+};
+
+priority_queue<vector<int>, vector<vector<int>>, Compare> maxQ;
+```
+
+#
+
 #### Block 4 - Trees and Graphs
 **Graphs**
 | Problem Name | Link | Gist |
