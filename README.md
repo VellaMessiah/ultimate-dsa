@@ -223,7 +223,11 @@ Finally, compare **\(H_r\)** and **\(H_p\)**.
 - Merge Sort in particular due to it's divide and conquer nature offers other advanced applications like counting inversions in an Array! The intuition here is if I had the array in current order as well as sorted order and I could compare both, then would my solution become simpler?
 - Do not bother with in-place merge sort, it is slower.
 - Unless asked to implement sort, just use your in-built sorting algorithm and obviously know what it does underneath. For instance std::sort is introsort, a hybrid of quicksort, heapsort, and insertion sort. Should be ideally nLogn
-- Pivot Randomization is very important in Quicksort/Quickselect algorithms. Some test cases are designed to fail on selecting the first or last element all the time.
+- Pivot Randomization is very important in Quicksort/Quickselect algorithms. Some test cases are designed to fail on selecting the first or last element all the time. To get a random number use the below piece of code
+```
+srand((unsigned int)time(0)) // Seed random with current time
+int pivot = rand()%(y-x+1) + x
+```
 - Know how to sort an array of custom objects or custom sorting logic over primitives in your language of choice
 
 | Problem Name | Link | Gist |
