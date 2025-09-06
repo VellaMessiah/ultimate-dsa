@@ -13,8 +13,8 @@ Direct practice links are included so you can sharpen your skills where it matte
 Topics are grouped into **independent blocks**, but the blocks themselves should be tackled **in order** for maximum efficiency:
 
 **Block 1** — Math, Arrays, Linked Lists, Stacks, Queues  
-**Block 2** — Searching, Sorting, Hashing  
-**Block 3** — Strings  
+**Block 2** — Searching, Sorting, Hashing, Strings
+**Block 3** — Heaps 
 **Block 4** — Trees, Graphs  
 **Block 5** — Design ( Combines all the above - especially important for Google)  
 **Block 6** — Greedy, Dynamic Programming, Design  
@@ -237,7 +237,7 @@ int pivot = rand()%(y-x+1) + x
 |MaxMod | [MaxMod](https://www.geeksforgeeks.org/dsa/find-the-maximum-possible-value-of-ai-aj-over-all-pairs-of-i-and-j/) | If a%b is [0,b-1], and if b>a then a%b is always a. If you then think about it, isn't this always the second largest element ( not equal to the largest )? Now it just about handling the edge case|
 |Largest Number |[Largest Number](https://leetcode.com/problems/largest-number/description/) | Custom Sorting: string(n1)+string(n2)>string(n2)+string(n1). Just be sure to handle the edge case where every element is 0.|
 |Inversion Count | [Count Inversions](https://www.hackerrank.com/challenges/ctci-merge-sort/problem) | Merge Sort with extra computation. When we merge the sorted halves if i is in first half and j is in second half and  A[i]>A[j] then inversions = inversions + (m-i+1). An important point to consider is why are we incrementing inversion count by (m-i+1) and not (j-m) ? Think via example! Consider two sorted arrays 3,5,7 | 1,4,8 . If we consider only j-m then we would be counting only 1 for when we are at the first element of both arrays which is incorrect since all elements of left are greater than the first element, we should be counting 3! | 
-| K closest points to origin | [K closest](https://leetcode.com/problems/k-closest-points-to-origin/) | Custom sorting| 
+| K closest points to origin | [K closest](https://leetcode.com/problems/k-closest-points-to-origin/) | Custom sorting - can be done more efficiently with a heap| 
 | Reverse Pairs | [Reverse Pairs](https://leetcode.com/problems/reverse-pairs/) |  Merge Sort with extra computation |
 | Sum of max or number of such sequences difference accross all subsequences | [Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/description/) | |
 | Maximum Unsorted Subarray | [Maximum Unsorted Subarray](https://www.scaler.com/academy/mentee-dashboard/class/18018/homework/problems/359?navref=cl_tt_lst_nm) | |
