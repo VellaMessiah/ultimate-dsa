@@ -240,7 +240,7 @@ int pivot = rand()%(y-x+1) + x
 | K closest points to origin | [K closest](https://leetcode.com/problems/k-closest-points-to-origin/) | Custom sorting - can be done more efficiently with a heap| 
 | Reverse Pairs | [Reverse Pairs](https://leetcode.com/problems/reverse-pairs/) |  Like Count inversions except we need to do two loops over the sorted half. Once will count the reverse pairs and other will actually merge the sorted arrays |
 | Sum of max or number of such sequences difference accross all subsequences | [Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/description/) | |
-| Maximum Unsorted Subarray | [Maximum Unsorted Subarray](https://www.scaler.com/academy/mentee-dashboard/class/18018/homework/problems/359?navref=cl_tt_lst_nm) | |
+| Maximum Unsorted Subarray | [Maximum Unsorted Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/description/) | This looks simple but is deceptive. It is not simply about find the first and last unsorted element. For instance consider 4,13,15,17,13,17. Trivial algos would return incorrect solution here. Find the rightmost element by tracking max in the forward loop and then leftmost element by tracking min in a reverse loop.|
 
 #
 
