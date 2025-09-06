@@ -234,7 +234,7 @@ int pivot = rand()%(y-x+1) + x
 | Problem Name | Link | Gist |
 |---|---:|---|
 |Kth Smallest Element | [Kth Largest Element](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | Simple Quick select |
-|MaxMod | [MaxMod](https://www.geeksforgeeks.org/dsa/find-the-maximum-possible-value-of-ai-aj-over-all-pairs-of-i-and-j/) | Intuition |
+|MaxMod | [MaxMod](https://www.geeksforgeeks.org/dsa/find-the-maximum-possible-value-of-ai-aj-over-all-pairs-of-i-and-j/) | If a%b is [0,b-1], and if b>a then a%b is always a. If you then think about it, isn't this always the second largest element ( not equal to the largest )? Now it just about handling the edge case|
 |Largest Number |[Largest Number](https://leetcode.com/problems/largest-number/description/) | Custom Sorting|
 |Inversion Count | [Count Inversions](https://leetcode.com/problems/count-the-number-of-inversions/description/) | Merge Sort with extra computation | 
 | K closest points to origin | [K closest](https://leetcode.com/problems/k-closest-points-to-origin/) | Custom sorting| 
