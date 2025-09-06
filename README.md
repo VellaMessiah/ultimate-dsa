@@ -228,6 +228,7 @@ Finally, compare **\(H_r\)** and **\(H_p\)**.
 srand((unsigned int)time(0)) // Seed random with current time
 int pivot = rand()%(y-x+1) + x
 ```
+- Also in merge sort/quick-sort, never use >= or <= but always use strict > or < as it can have disastrous results ( Take quick select over [99,99] for instance, you get stuck in a loop )
 - Know how to sort an array of custom objects or custom sorting logic over primitives in your language of choice
 
 | Problem Name | Link | Gist |
