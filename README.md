@@ -325,4 +325,4 @@ priority_queue<vector<int>, vector<vector<int>>, Compare> maxQ;
 
 | Problem Name | Link | Gist |
 |---|---:|---|
-| Median of 2 sorted arrays | [Median of two sorted arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/) | |
+| Median of 2 sorted arrays | [Median of two sorted arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/) | Number of elements in the left-half ( including median) of a sorted array is (N+1)/2. Additionally all the elements in the left half are <= right half. Thus we can just binary search over the number of elements to include from first array, let's say m1. Then the number of elements to include from the other array is m2  = (N+1)/2 - m1. Now we must compare the boundaries i.e take the element on the boundries ( m1-1 and m2-1) is a and b. The elements just beyond the boundary ( m1 and m2) is c and d. Then a<=d and b<=c, If yes, we can find our median ( odd = max(a,b), even = (max(a,b) + min(c,d))/2 |
