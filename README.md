@@ -270,6 +270,13 @@ priority_queue<vector<int>, vector<vector<int>>, Compare> maxQ;
 #
 
 #### Block 4 - Trees and Graphs
+**Trees**
+| Problem Name | Link | Gist |
+|---|---:|---|
+| Binary Tree from inorder and preorder| [Binary Tree from inorder and postorder](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal) | Imagine if we were to construct a tree only from preorder. Then first element would be root and then we would need to know the number of elements in the left subtree at each step. Imagine the same for inorder. At every step if we were told the position of the root, we would be able to split the array into left and right subtree. Now isn't the first element of preorder traversal the root? We can find the root in the inorder traversal. This allows us to find the number of elements in the left subtree and right subtree. We use this information to then recurse further. Remember, in such questions: inorder is only dependant on root while preorder or postorder's next recursion is dependant on number of elements only  |
+| Binary Tree from inorder and postorder | [Binary Tree from inorder and postorder](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/description/) | Same as above, except we determine the number of element in the right subtree first. |
+| Lowest Common Ancestor | [LCA](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/) | If we put traversal data of two nodes in a stack, wouldn't LCA be the first equal node? |
+
 **Graphs**
 | Problem Name | Link | Gist |
 |---|---:|---|
@@ -283,6 +290,7 @@ priority_queue<vector<int>, vector<vector<int>>, Compare> maxQ;
 |---|---:|---|
 | LRU Cache | [LRU Cache](https://leetcode.com/problems/lru-cache/description/) | You should probably do hash maps. if you haven't - do that first and then come back to this question |
 | Max Frequency Stack| [Max Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/description/)| |
+| Design a Circular Queue | [Design a circular queue](https://leetcode.com/problems/design-circular-queue/) | Yes this is a question of just managing a fixed size array with 2 pointers for start and end. But edge cases are very important here. For simplicity we init start and end at 0. This means start = where the start element is going to be. end = where the end element is going to be. The readjustment in both operations can be summarized as follows: When the queue was empty and one element just enqueued, start must be the end element. Now since start and end start from the same index, we can keep enqueue logic as -> (increment end, set arr[end] = enqueued value, if queue was empty previously, set start = the new end )|
 
 #
 
