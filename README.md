@@ -302,7 +302,7 @@ priority_queue<vector<int>, vector<vector<int>>, Compare> maxQ;
 | Online Stock span | | |
 | Finding MK Average | | |
 | Design Browser History | | |
-| Design URL shortener | | |
+| Design URL shortener | [Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/) | This is a simple problem of hashing and store short to long URL mappings. Now hash() usually produces a very large string/int depending on the algorithm used ( like sha1 etc). This wastes a lot of space. Remember there are 62 different characters available and event at 7 character length we can store about 60 billion strings. So we don't need a very large string. at average 40 bytes ( calculated using example URL provided) per URL and 1 GB memory assumed, we can only store about 25 million strings. Now there are two such ways available. One is do base 62 encoding -> this will always produce a small result. Other is hash to a int or simplest has available, then take first n digits. Assuming a space of 100 million ( since we need to store upto 25 million strings) = 10^8 or 8 digit hash of numbers [0-9]. This is much simpler. However, we need to handle collisions here. Thus keep hashing till you get a collision free result. Collision should be highly improabable in in a 9 digit number anyway. |
 | Design Twitter | | |
 | Design a Tree Iterator | | |
 | Two-sum BST using Tree Iterator | | |
