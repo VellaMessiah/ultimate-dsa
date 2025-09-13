@@ -313,6 +313,7 @@ priority_queue<vector<int>, vector<vector<int>>, Compare> maxQ;
 | Design a Leaderboard | | |
 | Design a Log Storage System | | |
 | Design a File System | | |
+| Sort array by increasing frequency | | |
 
 
 
