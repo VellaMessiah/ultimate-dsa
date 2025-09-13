@@ -292,6 +292,29 @@ priority_queue<vector<int>, vector<vector<int>>, Compare> maxQ;
 | Max Frequency Stack| [Max Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/description/)| |
 | Design a Circular Queue | [Design a circular queue](https://leetcode.com/problems/design-circular-queue/) | Yes this is a question of just managing a fixed size array with 2 pointers for start and end. Remember that modular arithemetic is very useful here ( remember (-a )%b is (-a + b)%b ) But edge cases are very important here. For simplicity we init start and end at 0. This means start = where the start element is going to be. end = where the end element is going to be. The readjustment in both operations can be summarized as follows: When the queue was empty and one element just enqueued, start must be the end element. Now since start and end start from the same index, we can keep enqueue logic as -> (increment end, set arr[end] = enqueued value, if queue was empty previously, set start = the new end )|
 | Design a Circular Dequeue | [Design a circular Deque](https://leetcode.com/problems/design-circular-deque/description/?envType=problem-list-v2&envId=design)| The edge case from circular queue really blows up here. If the concern is that on 0 or 1 elements, the start and end should align, why don't we encapsulate that in a function and call it at the end of each kind of insertion or deletion? Also Modular arithmetic is much more useful here. Since both front boundary and end boundary can shrink.  |
+| Design a hit counter | Design a hit counter | queue to keep a track of hits. on each getHits() call, clean up older hits out of threshold. size of queue is the hits |
+| Logger Rate Limiter | [Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/?envType=problem-list-v2&envId=data-stream) | |
+| Stock fluctuation | [Stock Price Fluctuation](https://leetcode.com/problems/stock-price-fluctuation/description/) | |
+| Time-based Key-value store | [Time based KV store](https://leetcode.com/problems/time-based-key-value-store) | |
+| Design Memory Allocator | [Design Memory Allocator](https://leetcode.com/problems/design-memory-allocator) | |
+| Design a Trie | | |
+| Search Autocomplete system | [Design Autocomplete System](https://leetcode.com/problems/design-memory-allocator) | |
+| Online Stock span | | |
+| Finding MK Average | | |
+| Design Browser History | | |
+| Design URL shortener | | |
+| Design Twitter | | |
+| Design a Tree Iterator | | |
+| Two-sum BST using Tree Iterator | | |
+| Evaluate Division | | |
+| Design Front Middle Back Queue | | |
+| Insert Delete Get Random | | |
+| Simple Bank System | | |
+| Design a Leaderboard | | |
+| Design a Log Storage System | | |
+| Design a File System | | |
+
+
 
 #
 
