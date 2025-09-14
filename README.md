@@ -309,7 +309,7 @@ priority_queue<vector<int>, vector<vector<int>>, Compare> maxQ;
 | Evaluate Division | | |
 | Design Front Middle Back Queue | | |
 | Insert Delete Get Random | | |
-| Simple Bank System | | |
+| Simple Bank System | [Simple Bank System](https://leetcode.com/problems/simple-bank-system/) | The only thing that matters here is locking since that is the only thing the interviewer would be concerned about. Now one simple approach is lock the entire system. But this is pretty bad for performance. How about we have an individual lock for each account and only lock the accounts necessary? |
 | Design a Leaderboard | | |
 | Design a Log Storage System | | |
 | Design a File System | | |
