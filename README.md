@@ -320,6 +320,7 @@ priority_queue<vector<int>, vector<vector<int>>, Compare> maxQ;
 | Flatten Nested List Iterator | [Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator) | |
 | Design a Task Manager | [Design a Task Manager](https://leetcode.com/problems/design-task-manager/description/?envType=problem-list-v2&envId=design) | |
 | Snapshot Array | [Snapshot Array](https://leetcode.com/problems/snapshot-array/description/?envType=problem-list-v2&envId=design) | |
+| Throne Inheritance | [Throne Inheritance](https://leetcode.com/problems/throne-inheritance) | |
 
 
 
