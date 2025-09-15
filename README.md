@@ -310,7 +310,7 @@ priority_queue<vector<int>, vector<vector<int>>, Compare> maxQ;
 | Design a Tree Iterator | | |
 | Two-sum BST using Tree Iterator | | |
 | Evaluate Division | | |
-| Design Front Middle Back Queue | | |
+| Design Front Middle Back Queue | [Front Middle Back Queue](https://leetcode.com/problems/design-front-middle-back-queue/submissions/1771652900/) | Maintain 2 queues with left being larger by upto 1 size. Manage popping, pushing and middle based on even or odd size|
 | Insert Delete Get Random | | |
 | Simple Bank System | [Simple Bank System](https://leetcode.com/problems/simple-bank-system/) | The only thing that matters here is locking since that is the only thing the interviewer would be concerned about. Now one simple approach is lock the entire system. But this is pretty bad for performance. How about we have an individual lock for each account and only lock the accounts necessary? |
 | Design a Leaderboard | | |
