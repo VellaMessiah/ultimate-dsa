@@ -314,7 +314,7 @@ priority_queue<vector<int>, vector<vector<int>>, Compare> maxQ;
 | Insert Delete Get Random | | |
 | Simple Bank System | [Simple Bank System](https://leetcode.com/problems/simple-bank-system/) | The only thing that matters here is locking since that is the only thing the interviewer would be concerned about. Now one simple approach is lock the entire system. But this is pretty bad for performance. How about we have an individual lock for each account and only lock the accounts necessary? |
 | Design a Leaderboard | | |
-| Design a Log Storage System | | |
+| Design a Log Storage System | [Design Log Storage System](https://leetcode.com/problems/design-log-storage-system/) | You can create a Container class for timestamps that gives lower and upper limit representations for the granularity. Add a comparator in it and you can no maintain timestamps in a sorted container. Maintain pairs or tuples of Timestamps and ids and return lower_limit(start_ts), upper_limit(end_ts)|
 | Design a File System | | |
 | Find pairs with certain sum | [Finding Pairs With a Certain Sum](https://leetcode.com/problems/finding-pairs-with-a-certain-sum) | |
 | Flatten Nested List Iterator | [Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator) | |
