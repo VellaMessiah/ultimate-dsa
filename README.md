@@ -318,7 +318,7 @@ priority_queue<vector<int>, vector<vector<int>>, Compare> maxQ;
 | Design a File System | [Design File System](https://leetcode.com/problems/design-file-system/description/) | Classic Trie Question. The only problem is the edge cases. If the child is not found during createPath, create it if it is the last token, else return False. In the end it is important to return false since we are to return false if path already exists. For get, keep updating the return value starting from -1 as you keep traversing |
 | Find pairs with certain sum | [Finding Pairs With a Certain Sum](https://leetcode.com/problems/finding-pairs-with-a-certain-sum) | |
 | Flatten Nested List Iterator | [Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator) | |
-| Design a Task Manager | [Design a Task Manager](https://leetcode.com/problems/design-task-manager/description/?envType=problem-list-v2&envId=design) | |
+| Design a Task Manager | [Design a Task Manager](https://leetcode.com/problems/design-task-manager/description/?envType=problem-list-v2&envId=design) | Need a sorted container ( multiset) of Task struct sorted by priority first and then taskId. Also need a hash map of Task id to multiset iterator.|
 | Snapshot Array | [Snapshot Array](https://leetcode.com/problems/snapshot-array/description/?envType=problem-list-v2&envId=design) | |
 | Throne Inheritance | [Throne Inheritance](https://leetcode.com/problems/throne-inheritance) | |
 
