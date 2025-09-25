@@ -319,7 +319,7 @@ priority_queue<vector<int>, vector<vector<int>>, Compare> maxQ;
 | Find pairs with certain sum | [Finding Pairs With a Certain Sum](https://leetcode.com/problems/finding-pairs-with-a-certain-sum) | |
 | Flatten Nested List Iterator | [Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator) | |
 | Design a Task Manager | [Design a Task Manager](https://leetcode.com/problems/design-task-manager/description/?envType=problem-list-v2&envId=design) | Need a sorted container ( multiset) of Task struct sorted by priority first and then taskId. Also need a hash map of Task id to multiset iterator.|
-| Snapshot Array | [Snapshot Array](https://leetcode.com/problems/snapshot-array/description/?envType=problem-list-v2&envId=design) | |
+| Snapshot Array | [Snapshot Array](https://leetcode.com/problems/snapshot-array/description/?envType=problem-list-v2&envId=design) | You need for each index, a list of sorted pairs of snap_id, value sorted by first. Or a map<int,int>. When querying for a key, if empty or min_key is greater than the snap queried for, return default value (0) or return the upper_bound snap -1 's value|
 | Throne Inheritance | [Throne Inheritance](https://leetcode.com/problems/throne-inheritance) | |
 
 
